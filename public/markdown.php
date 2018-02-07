@@ -16,4 +16,4 @@ $parse->code_class = '%s';
 $body              = $parse->text(file_get_contents($filename));
 $hostname          = 'http://your-domain.com/';
 
-include_once ROOT . '/src/markdown.tp.php';
+include_once ROOT . '/template/markdown.tp.php';
