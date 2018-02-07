@@ -1,0 +1,22 @@
+.hljs table {
+    margin-bottom: 0;
+}
+
+.hljs table tr {
+    background: none;
+    border: none;
+}
+
+.hljs table tr td {
+    padding: 2px 13px;
+    border: none;
+}
+
+td.hljs-ln-code {
+    padding-left: 10px;
+}
+
+.hljs table tr td.hljs-ln-numbers {
+    border-right: 1px solid #ddd;
+    color: #aaa;
+}
