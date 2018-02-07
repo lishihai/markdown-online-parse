@@ -1,14 +1,16 @@
 ## Markdown-Online-Parse
 
-### 用途：
+#### 用途：
 
 ​	将`markdown`文件在浏览器中直接渲染成可读文件
 
-### 使用方法：
+#### 使用方法：
 
 + 将源代码克隆至本地后，添加`nginx`配置，配置可参考 `nginx.example.conf`。注意修改 `public/markdown.php`文件内 `$hostname`，`nginx`根目录指向`public`文件夹。
 
 + 将`markdown`源文件拷贝至`src`文件夹下
+
++ 执行`composer update -vvv`
 
 + 浏览器中输入正确的地址+`markdown`文件名称
 
@@ -19,7 +21,7 @@
   [http://your-domain.com/test/v1/demo.md](http://your-domain.com/test/v1/demo.md) 
 
 
-### 致谢：
+#### 致谢：
 
 +   [Parsedown](https://github.com/erusev/parsedown) From [@erusev](https://github.com/erusev)
 +   [Parsedown Extra](https://github.com/erusev/parsedown-extra) From [@erusev](https://github.com/erusev)
