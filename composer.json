@@ -1,5 +1,5 @@
 {
     "require": {
-        "lishihai/parsedown-extra-plugin": "^0.2.0"
+        "erusev/parsedown": "^1.7"
     }
 }

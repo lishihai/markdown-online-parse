@@ -8,7 +8,7 @@
 
 #### 使用方法：
 
-+ 将源代码克隆至本地后，添加`nginx`配置，配置可参考 `nginx.example.conf`。注意修改 `public/markdown.php`文件内 `$hostname`，`nginx`根目录指向`public`文件夹。
++ 将源代码克隆至本地后，添加`nginx`配置，配置可参考 `nginx.example.conf`。`nginx`根目录指向`public`文件夹。
 
 + 将`markdown`源文件拷贝至`src`文件夹下
 
@@ -26,8 +26,6 @@
 #### 致谢：
 
 +   [Parsedown](https://github.com/erusev/parsedown) From [@erusev](https://github.com/erusev)
-+   [Parsedown Extra](https://github.com/erusev/parsedown-extra) From [@erusev](https://github.com/erusev)
-+   [Extension for Parsedown Extra](https://github.com/erusev/parsedown-extra) From [@tovic](https://github.com/tovic/)
 +   [highlight.js](https://github.com/isagalaev/highlight.js) From [@isagalaev](https://github.com/isagalaev)
 +   [highlightjs-line-numbers.js](https://github.com/wcoder/highlightjs-line-numbers.js) From [@wcoder](https://github.com/wcoder)
 
