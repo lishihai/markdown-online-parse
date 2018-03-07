@@ -3,6 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title><?php echo $title; ?></title>
+    <link href="//fonts.googleapis.com/earlyaccess/notosansscsliced.css" rel="stylesheet">
     <link href="<?php echo $hostname; ?>assets/github.min.css" rel="stylesheet"/>
     <link href="//cdn.bootcss.com/highlight.js/9.12.0/styles/default.min.css" rel="stylesheet">
 </head>
