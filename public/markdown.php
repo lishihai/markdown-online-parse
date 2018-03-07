@@ -14,6 +14,6 @@ if (!file_exists($filename)) {
 $parse             = new ParsedownExtraPlugin();
 $parse->code_class = '%s';
 $body              = $parse->text(file_get_contents($filename));
-$hostname          = 'http://your-domain.com/';
+$hostname          = '//' . $_SERVER["HTTP_HOST"] . '/';
 
 include_once ROOT . '/template/markdown.tp.php';
