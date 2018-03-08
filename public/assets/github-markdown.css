@@ -605,6 +605,7 @@ body {
     margin: 0;
     font-size: 85%;
     background-color: rgba(102,128,153,.08);
+    color: #D14;
 }
 
 .markdown-body pre {
@@ -650,6 +651,7 @@ body {
     word-wrap: normal;
     background-color: transparent;
     border: 0;
+    color: #222;
 }
 
 .markdown-body .full-commit .btn-outline:not(:disabled):hover {
